@@ -18,3 +18,5 @@ View your app in AI Studio: https://ai.studio/apps/939204e5-54e4-4658-b486-7cb7a
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+When you open this folder in VS Code, the `Start SpacePulse on localhost` task starts the app and opens `NASA_Project` on localhost. Vite uses port `3000`, or the next available port if `3000` is occupied. If prompted, allow automatic tasks. Run `npm install` once before the first launch.
